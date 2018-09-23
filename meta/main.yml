@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Bryant Luk
+  role_name: 1password-cli
+  description: Installs 1Password CLI
+  license: Apache
+  min_ansible_version: 2.6
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - 1password
+    - system
+    - packaging
+dependencies: []

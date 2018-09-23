@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-1password-cli
+- name: Install 1password-cli
+  script: files/update-1password.sh {{ op_cli_version }} {{ op_cli_platform }} {{ op_cli_install_path }}

@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  roles:
+    - role: ansible-role-1password-cli
+      vars:
+        op_cli_version: 0.5.3
+        op_cli_platform: darwin_amd64
+        op_cli_install_path: /usr/local/bin
