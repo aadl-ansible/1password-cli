@@ -21,6 +21,8 @@ Role Variables
 
 * `op_cli_install_path` - The path to install the tool.
 
+* `op_cli_check_gpg_signature` - If the GPG signature of the SHA sum file should be checked (e.g. `"true"`).
+
 Dependencies
 ------------
 
